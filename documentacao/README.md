@@ -35,7 +35,7 @@ Os gráficos de dispersão revelaram que variáveis de preço apresentam forte c
 
 **Primeiros passos para Engenharia de Atributos**
 
-Duas variáveis derivadas ao final da EDA antecipam a próxima etapa do projeto. A primeira é a variável target tendencia, criada a partir do preço de fechamento, com isso transformamos o desafio de previsão de série temporal em um problema de classificação binária. A segunda variável é a amplitude_diaria, obtida pela diferença entre os preços máximo e mínimo do dia, que representa a volatilidade, representando um indicativo da intensidade dos movimentos do mercado.
+Duas variáveis derivadas ao final da EDA antecipam a próxima etapa do projeto. A primeira é a variável target `tendencia`, criada a partir do preço de fechamento, com isso transformamos o desafio de previsão de série temporal em um problema de classificação binária. A segunda variável é a `amplitude_diaria`, obtida pela diferença entre os preços máximo e mínimo do dia, que representa a volatilidade, representando um indicativo da intensidade dos movimentos do mercado.
 
 **Seção 2: Engenharia de Features**
 
