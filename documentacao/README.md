@@ -33,10 +33,6 @@ Outras ações importantes incluíram:
 
 Os gráficos de dispersão revelaram que variáveis de preço apresentam forte correlação entre si, formando padrões lineares bem definidos. Por outro lado, o volume mostrou maior dispersão e baixa correlação com os preços. Um destaque importante foi o par `variação vs volume`, cuja nuvem de pontos oval e densa, embora sem padrão linear, indicou uma tendência: variações extremas — positivas ou negativas — costumam ocorrer em dias com volume elevado. Esse padrão não linear contribuiu para decisões futuras na criação de atributos sensíveis à volatilidade.
 
-**Insight adicional do pairplot**
-
-Os gráficos de dispersão revelaram que variáveis de preço apresentam forte correlação entre si, formando padrões lineares bem definidos. Por outro lado, o volume mostrou maior dispersão e baixa correlação com os preços. Um destaque importante foi o par variação vs volume, cuja nuvem de pontos oval e densa, embora sem padrão linear, indicou uma tendência: variações extremas — positivas ou negativas — costumam ocorrer em dia com volume elevado. Esse padrão não linear contribuiu para decisões futuras na criação de atributos sensíveis à volatilidade.
-
 **Primeiros passos para Engenharia de Atributos**
 
 Duas variáveis derivadas ao final da EDA antecipam a próxima etapa do projeto. A primeira é a variável target tendencia, criada a partir do preço de fechamento, com isso transformamos o desafio de previsão de série temporal em um problema de classificação binária. A segunda variável é a amplitude_diaria, obtida pela diferença entre os preços máximo e mínimo do dia, que representa a volatilidade, representando um indicativo da intensidade dos movimentos do mercado.
